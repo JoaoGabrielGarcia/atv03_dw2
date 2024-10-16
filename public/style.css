@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select, button {
+    margin-top: 5px;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Estilos para o botão de deletar */
+.delete-button {
+    background-color: #ff4c4c; /* Cor de fundo vermelha */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 8px 12px; /* Espaçamento interno */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+    width: 80px; /* Largura fixa */
+    margin-left: 5px; /* Margem à esquerda para separar do texto */
+}
+
+.delete-button:hover {
+    background-color: #d43d3d; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilos para o botão de atualizar */
+.edit-button {
+    background-color: #4c67ff; /* Cor de fundo vermelha */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 8px 12px; /* Espaçamento interno */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+    width: 80px; /* Largura fixa */
+    margin-left: 5px; /* Margem à esquerda para separar do texto */
+}
+
+.edit-button:hover {
+    background-color: #3d59d4; /* Cor de fundo ao passar o mouse */
+}
