@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Tarefas</title>
+    <link rel="stylesheet" href="style.css"> <!-- Inclua seu CSS aqui -->
+</head>
+<body>
+    <h1>Gerenciador de Tarefas</h1>
+
+    <!-- Formulário para adicionar novas tarefas -->
+    <form id="task-form">
+        <label for="task_id">ID da Tarefa:</label>
+        <input type="number" id="task_id" required>
+
+        <label for="name">Nome da Tarefa:</label>
+        <input type="text" id="name" required>
+
+        <label for="status">Status:</label>
+        <select id="status">
+            <option value="false">Incompleta</option>
+            <option value="true">Completa</option>
+        </select>
+
+        <button type="submit">Adicionar Tarefa</button>
+    </form>
+
+    <!-- Seção para filtrar as tarefas -->
+<div id="filter-controls">
+    <button id="show-all">Mostrar Todas</button>
+    <button id="show-complete">Mostrar Completas</button>
+    <button id="show-incomplete">Mostrar Incompletas</button>
+</div>
+
+    <!-- Seção para exibir as tarefas -->
+    <h2>Tarefas Existentes:</h2>
+    <ul id="task-list"></ul>
+
+    <!-- Seção para atualizar as tarefas -->
+    <div id="edit-form" style="display: none;">
+        <h3>Editar Tarefa</h3>
+        <form id="task-edit-form">
+            <input type="hidden" id="edit_task_id" />
+            <label for="edit_name">Nome:</label>
+            <input type="text" id="edit_name" required />
+            <label for="edit_status">Status:</label>
+            <select id="edit_status">
+                <option value="false">Incompleta</option>
+                <option value="true">Completa</option>
+            </select>
+            <button type="submit">Atualizar Tarefa</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
