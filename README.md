@@ -26,8 +26,8 @@ Antes de começar, certifique-se de que você tem o seguinte instalado:
     - npm install
 
 3. **Inicie o servidor e a aplicação**:
-    abra o terminal e digite o comando - node app.js
-    abra outro terminal e digite o comando - node index.js
+    - abra o terminal e digite o comando - node app.js
+    - abra outro terminal e digite o comando - node index.js
 
 4. **Acesse a aplicação**:
     http://localhost:3001/
